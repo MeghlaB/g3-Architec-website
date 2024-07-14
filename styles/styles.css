@@ -42,6 +42,7 @@
   /* nav-menu-styles */
   .navbar{
     justify-content: space-between;
+    
     align-items: center;
   }
   .brand{
@@ -82,4 +83,13 @@
   .banner-description{
     font-size: 16px;
     font-weight: 400;
+  }
+
+  /* responsive_website */
+  @media screen and (max-width:576px) {
+    .navbar ,.navlinks{
+        flex-direction: column;
+
+    }
+    
   }
